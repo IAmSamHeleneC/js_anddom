@@ -1,0 +1,83 @@
+p {
+    color: red;
+    text-align: center;
+  }
+    #red {
+    text-align: center;
+    color: red;
+  }
+  
+  .blue {
+    text-align: left;
+    color: blue;
+  }
+  a:link {
+    color: green;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+
+  	
+body {background-color:#00ff00;}
+#p1 {background-color:#ff0000;}
+
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+.rcorners1 {
+  border-radius: 15px 50px 30px 5px;
+  background: #73AD21;
+  padding: 20px;
+  margin:20px;
+  width: 200px;
+  height: 150px;
+}
+
+.rcorners2 {
+  border-radius: 15px 50px 30px;
+  background: #73AD21;
+  padding: 20px;
+  margin:20px;
+  width: 200px;
+  height: 150px;
+}
+
+.rcorners3 {
+  border-radius: 15px / 50px;
+  background: #73AD21;
+  padding: 20px;
+  margin:20px;
+  width: 200px;
+  height: 150px;
+}
+
+.rcorners4{
+  border-radius: 50%;
+  background: #73AD21;
+  padding: 20px;
+  margin:20px;
+  width: 200px;
+  height: 150px;
+}
